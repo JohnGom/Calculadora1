@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pp.gomez.com.calculadora.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:background="@color/numeros"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/uno">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/uno"
+        android:background="@color/numeros"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/dos">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/dos"
+        android:background="@color/numeros"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/tres">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/tres"
+        android:background="@color/operadores"
+        android:text="/"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/divi">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_below="@+id/uno"
+        android:background="@color/numeros"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/cuatro">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/cuatro"
+        android:layout_below="@+id/dos"
+        android:background="@color/numeros"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/cinco">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/cinco"
+        android:layout_below="@+id/tres"
+        android:background="@color/numeros"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/seis">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/seis"
+        android:layout_below="@+id/divi"
+        android:background="@color/operadores"
+        android:text="x"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/multi">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_below="@+id/cuatro"
+        android:background="@color/numeros"
+        android:text="7"
+        android:id="@+id/siete">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/siete"
+        android:layout_below="@+id/cinco"
+        android:background="@color/numeros"
+        android:text="8"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/ocho">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/ocho"
+        android:layout_below="@+id/seis"
+        android:background="@color/numeros"
+        android:text="9"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/nueve">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/nueve"
+        android:layout_below="@+id/multi"
+        android:background="@color/operadores"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/res">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_below="@+id/siete"
+        android:background="@color/numeros"
+        android:text="."
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/punto">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/punto"
+        android:layout_below="@+id/ocho"
+        android:background="@color/numeros"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/cero">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/cero"
+        android:layout_below="@+id/nueve"
+        android:background="@color/numeros"
+        android:text="="
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/igual">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_toRightOf="@+id/igual"
+        android:layout_below="@+id/res"
+        android:background="@color/operadores"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/mas">
+    </TextView>
+
+
+</RelativeLayout>
